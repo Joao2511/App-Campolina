@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Campolina",
+    "slug": "Campolina",
+    "version": "3.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconCamp.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/iconeTela.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#242834"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.yourappname",
+      "buildNumber": "2.0.0" //increase it for iOS
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/iconCamp.png",
+        "backgroundColor": "#242834"
+      },
+      "package": "com.rev.Campolina",
+      "versionCode": 2
+    },
+    "web": {
+      "favicon": "./assets/iconCamp.png"
+    }
+  }
+}
